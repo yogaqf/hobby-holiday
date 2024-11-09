@@ -11,7 +11,7 @@ import {
 
 export function Korsel() {
       return (
-            <Carousel className="w-full max-w-3xl mt-3">
+            <Carousel className="w-full max-w-4xl mt-3">
                   <CarouselContent>
                         {Array.from({ length: 5 }).map((_, index) => (
                               <CarouselItem key={index}>

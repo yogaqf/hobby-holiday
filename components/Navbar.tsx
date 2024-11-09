@@ -20,11 +20,18 @@ export default function Navbar() {
       return (
             <div className="relative z-40">
                   <nav className="bg-white border-b top-0 left-0 right-0 fixed">
-                        <div className="max-w-8xl mx-auto px-4 md:px-10 lg:px-40 xl:px-[300px] 2xl:px-[500px]">
-                              <div className="flex items-center justify-between h-40">
+                        <div className="max-w-8xl mx-auto px-4 md:px-10 lg:px-40 xl:px-[200px] 2xl:px-[400px]">
+                              <div className="flex items-center justify-between h-30">
                                     <div className="flex items-center justify-evenly">
-                                          <Link href="/" className="text-2xl font-bold">
-                                                <Image src="/logo.jpeg" width={200} height={200} className="h-auto w-auto" alt="Hobi Holidays" />
+                                          <Link href="/">
+                                                <div style={{ width: '175px', height: '120px', position: 'relative' }}>
+                                                      <Image
+                                                            src="/logo.jpeg"
+                                                            alt="Hobi Holidays"
+                                                            layout="fill"
+                                                            objectFit="contain"
+                                                      />
+                                                </div>
                                           </Link>
                                     </div>
                                     <div className="hidden md:block">
