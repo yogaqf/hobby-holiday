@@ -6,6 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
+
     <div className="h-[4000px]">
       <Navbar />
       <div className="pt-32 px-1 md:px-10 flex flex-col items-center">
@@ -21,7 +22,6 @@ export default function Home() {
           </CardContent>
         </Card>
       </div>
-
     </div>
   );
 }
